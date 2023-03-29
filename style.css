@@ -27,15 +27,21 @@ body{
     margin: 50px;
     width: 35%;
 }
+.header__ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .header__ul-li{
     display: inline-block;
+    margin: 20px;
 }
 .header__ul-li-a{
     line-height: 4;
-    padding: 5px;
-    margin: 0px 20px;
+    padding: 20px;
     text-decoration: none;
     color: #ffffff;
+    font-size: 18px;
 }
 .header__ul-li-a:hover{
     background-color: #ababab;
@@ -43,22 +49,35 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*   Modificando el Main   */
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.main__bloque{
+    line-height: 1.5;
+    padding: 10px;
+    margin: 40px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000000bd;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    width: 400px;
+}
+.main__bloque:hover{
+    width: 430px;
+    font-size: 20px;
+    transition: .3s all;
+}
+.main__bloque-h2{
+    font-size: 30px;
+}
 
 
 
